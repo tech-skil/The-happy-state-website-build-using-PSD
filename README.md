@@ -6,20 +6,20 @@
 ## Overview
 Welcome to "The Happy State" website repository! This project is a modern web application designed to bring joy and positivity to users' lives. The website is built using React for dynamic frontend components, Vite for lightning-fast bundling, and Tailwind CSS for sleek and responsive styling. It's optimized for desktop app view, providing users with a seamless browsing experience on larger screens.
 
+### *Built from a PSD Design*
+Yes, this website was crafted based on a PSD (Photoshop) design, ensuring pixel-perfect accuracy and attention to detail in its visual presentation.
+
 ## Key Features
 
 1. **Engaging Landing Page:**
-
    ![Landing Page](https://github.com/tech-skil/The-happy-state-website-build-using-PSD/assets/130985031/ede92d11-a6c1-4d81-8f4b-974dbbb3d374)
    - Capture users' attention with an interactive and visually stunning landing page that communicates the essence of "The Happy State."
 
-3. **User Authentication:**
-   
+2. **User Authentication:**
    ![Authentication](https://github.com/tech-skil/The-happy-state-website-build-using-PSD/assets/130985031/56bbade2-b70b-40cc-82d9-342476d870d4)
    - Implement secure user authentication to enable sign-up, login, and personalized user experiences.
 
-5. **Feature-Rich Dashboard:**
-   
+3. **Feature-Rich Dashboard:**
    ![Dashboard](https://github.com/tech-skil/The-happy-state-website-build-using-PSD/assets/130985031/12df6091-4e9f-4cd1-b604-ae193b5b1ecd)
    - Provide users with a comprehensive dashboard interface to manage their profiles, preferences, and access relevant content effortlessly.
 
@@ -57,4 +57,4 @@ Contributions are welcome! If you have ideas for new features, improvements, or 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 ```
 
-This version provides a more detailed overview of the project, enhances the key features section, and streamlines the getting started instructions.
+Now it's clear from the overview section that the website was built from a PSD design.
