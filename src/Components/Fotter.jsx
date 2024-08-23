@@ -30,16 +30,16 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <hr className="border-gray-700" />
+      <hr className="border-gray-100" />
       <div className="flex flex-col md:flex-row justify-between items-center pt-5 space-y-4 md:space-y-0">
-        <div className="text-yellow-400 text-sm md:text-base">Copyright | YourName</div>
+        <div className="text-yellow-400 text-sm md:text-base">Copyright | Jayanth</div>
         <div className="flex flex-row space-x-4 md:space-x-8">
-          <div className="hidden md:flex md:flex-row md:space-x-4 lg:space-x-8">
-            <img src={insta} alt="Instagram" className="icon bg-yellow-400 w-6 h-6 md:w-8 md:h-8" />
-            <img src={fb} alt="Facebook" className="icon bg-yellow-400 w-6 h-6 md:w-8 md:h-8" />
-            <img src={twet} alt="Twitter" className="icon bg-yellow-400 w-6 h-6 md:w-8 md:h-8" />
+          <div className="hidden md:flex md:flex-row md:space-x-4 lg:hidden">
+            <img src={icon} alt="Instagram" className="icon bg-yellow-400 w-6 h-6 md:w-8 md:h-8" />
+            <img src={fb} alt="Facebook" className="icon  bg-yellow-400 w-6 h-6 md:w-8 md:h-8" />
+            <img src={twet} alt="Twitter" className="icon  bg-yellow-400 w-6 h-6 md:w-8 md:h-8" />
           </div>
-          <div className="md:hidden">
+          <div className="md:hidden lg:block">
             <img src={icon} alt="Social Icons" className="icon w-24 h-6" />
           </div>
         </div>

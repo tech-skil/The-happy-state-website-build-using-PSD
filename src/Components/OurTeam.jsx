@@ -14,7 +14,7 @@ const OurTeam = () => {
             <div className="item11 font-bebas text-black text-3xl md:text-4xl lg:text-5xl">
               our team
             </div>
-            <div className="item12 text-sm md:text-base lg:text-lg w-full lg:w-3/5">
+            <div className="item12 text-sm md:text-base lg:text-lg w-full md:text-justify lg:w-[70%]">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo
             </div>
             <div className="item13">

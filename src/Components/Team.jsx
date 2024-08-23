@@ -12,9 +12,7 @@ const Team = () => {
         <div className="item12 text-sm md:text-base w-full lg:w-4/6">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut 
-          <span className="hidden md:inline"> labore et dolore magna aliqua. Quis ipsum
-          suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan
-          lacus vel facilisis.</span>
+          <span className="hidden md:inline"> labore et dolore magna aliqua. </span>
         </div>
         <div className="item13">
           <button className="cursor-pointer font-sans font-black text-sm md:text-base">

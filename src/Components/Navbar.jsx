@@ -1,11 +1,27 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import logo from '../assets/img/logo.png';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isSticky, setIsSticky] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setIsSticky(true);
+      } else {
+        setIsSticky(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
   return (
-    <nav className='navbar bg-yellow-400 py-4 px-4 md:px-8 lg:px-16'>
+    <nav className={`bg-yellow-400 py-4 px-4 md:px-8 lg:px-16 transition-all duration-300 ${isSticky ? 'fixed top-0 left-0 right-0 z-50 shadow-md' : ''}`}>
       <div className="container mx-auto flex items-center justify-between">
         <div className="start cursor-pointer">
           <img src={logo} className='w-8 md:w-10 lg:w-12' alt="logo" />
@@ -22,7 +38,6 @@ const Navbar = () => {
             </svg>
           </button>
         </div>
-
         <div className="hidden md:block">
           <ul className='flex space-x-4 lg:space-x-8 font-sans cursor-pointer font-bold text-sm lg:text-base'>
             <li><a href='#happy'>Happiness</a></li>
@@ -32,7 +47,6 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
-
       {isMenuOpen && (
         <div className="md:hidden mt-4">
           <ul className='flex flex-col space-y-2 font-sans cursor-pointer font-bold text-sm'>
@@ -47,4 +61,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default Navbar;
