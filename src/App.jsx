@@ -19,7 +19,7 @@ function App() {
     <Navbar/>
     <About/>
     <div className="relative flex justify-center">
-      <div className="absolute z-10 ">
+      <div className="absolute z-10  top-10 lg:top-0">
     <Team />
       </div>
     <div className="absolute w-full top-60 z-1">

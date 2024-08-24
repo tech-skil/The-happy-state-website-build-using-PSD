@@ -9,7 +9,7 @@ const Team = () => {
         <div className="item11 font-bebas text-yellow-400 text-4xl md:text-5xl lg:text-7xl w-full lg:w-4/6">
           Happiness in numbers
         </div>
-        <div className="item12 text-sm md:text-base w-full lg:w-4/6">
+        <div className="item12 text-sm md:text-base w-full sm:w-2/4  lg:w-4/6">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut 
           <span className="hidden md:inline"> labore et dolore magna aliqua. </span>
